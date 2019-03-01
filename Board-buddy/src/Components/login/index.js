@@ -21,7 +21,7 @@ class Form extends Component {
       <div className="row">
         <div className="input-field col s12">
           <input disabled value="I am not editable" id="disabled" type="text" class="validate"/>
-          <label for="disabled">Disabled</label>
+          <label for="disabled" className="disabled">Disabled</label>
         </div>
       </div>
       <div className="row">
